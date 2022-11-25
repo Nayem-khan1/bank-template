@@ -22,7 +22,7 @@ document.getElementById('withdrawBtn').addEventListener('click', function(){
     const currentBlanceNum = parseFloat(currentBlanceStr);
 
     //condition
-    if(updateWthdraw > currentBlanceNum){
+    if(withrawAmountNum > currentBlanceNum){
         alert('Insufficient Balance');
         return;
     }
